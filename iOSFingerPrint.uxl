@@ -17,6 +17,8 @@
 				        [myContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
 				        localizedReason:myLocalizedReasonString
 				        reply:^(BOOL success, NSError *error) {
+				        	 // Need a pool, since we are running on a different thread
+				        	uAutoReleasePool pool;
 				        	@{iOSFingerPrint} myThis = (@{iOSFingerPrint}) [objcCallback unoObject];
 				        	myThis->AuthDone(success, nil);
 				        }];
