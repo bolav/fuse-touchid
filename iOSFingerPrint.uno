@@ -7,10 +7,6 @@ using Uno.Compiler.ExportTargetInterop;
 public class iOSFingerPrint : NativeModule
 {
 	public iOSFingerPrint() {
-		var i = 0;
-		if (i == 1) {
-			AuthDone(true, null);
-		}
 		AddMember(new NativeFunction("auth", (NativeCallback)Authenticate));
 	}
 
