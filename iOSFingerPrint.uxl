@@ -3,12 +3,12 @@
 		<Type Name="iOSFingerPrint">
 			<Require Xcode.Framework="LocalAuthentication" />
 			<Require Source.Import="LocalAuthentication/LocalAuthentication.h" />
-			<Require Source.Include="uObjC.Reference.h" />
+			<Require Source.Include="uObjC.UnoObject.h" />
 			<Set FileExtension="mm" />
 			<Method Signature="iOSAuth(string)">
 			    <Body>
 			        <![CDATA[
-			        Uno_StrongReference *objcCallback = [[Uno_StrongReference alloc] initWithUnoObject:$$];
+			        StrongUnoObject *objcCallback = [[StrongUnoObject alloc] initWithUnoObject:$$];
 
 			        LAContext *myContext = [[LAContext alloc] init];
 			        NSError *authError = nil;
