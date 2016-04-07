@@ -1,6 +1,16 @@
-# fuse-touchid
+fuse-touchid
+============
 
 ![Screenshot](https://raw.githubusercontent.com/bolav/fuse-touchid/master/touch.png)
+
+## Installation
+
+Using [fusepm](https://github.com/bolav/fusepm)
+
+    $ fusepm install https://github.com/bolav/fuse-touchid
+
+
+## Usage
 
 ```
 <iOSFingerPrint ux:Global="FingerPrint" />
