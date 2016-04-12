@@ -1,4 +1,5 @@
 {
+  "Name":"TouchIDExample",
   "RootNamespace":"",
   "Packages": [
         "Fuse.Animations",
