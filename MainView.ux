@@ -1,4 +1,4 @@
-<App Theme="Basic">
+<App>
 	<iOSFingerPrint ux:Global="FingerPrint" />
 	<JavaScript>
 		var fp = require('FingerPrint');
@@ -13,7 +13,7 @@
 	<DockPanel>
 		<StatusBarBackground Dock="Top"/>
 		<StackPanel>
-			<Button Text="Authenticate" Clicked="{auth}" />
+			<Basic.Button Text="Authenticate" Clicked="{auth}" />
 		</StackPanel>
 	</DockPanel>
 </App>
