@@ -1,4 +1,4 @@
-fuse-touchid
+fuse-touchid [![Build Status](https://travis-ci.org/bolav/fuse-touchid.svg?branch=master)](https://travis-ci.org/bolav/fuse-touchid) ![Fuse Version](http://fuse-version.herokuapp.com/?repo=https://github.com/bolav/fuse-touchid)
 ============
 
 ![Screenshot](https://raw.githubusercontent.com/bolav/fuse-touchid/master/touch.png)
